@@ -3,8 +3,7 @@ version: "3.7"
 services:
   webapp:
     build:
-      context: .
-      dockerfile: ./Dockerfile.development
+      image: miguelf90/semaphore-demo-php-unsplash
     ports:
       - "8000:80"
     volumes:
