@@ -2,8 +2,7 @@
 version: "3.7"
 services:
   webapp:
-    build:
-      image: miguelf90/semaphore-demo-php-unsplash
+    image: miguelf90/semaphore-demo-php-unsplash
     ports:
       - "8000:80"
     volumes:
